@@ -17,6 +17,8 @@ Furthermore, we tends to optimize the performance of the QuadTree.
 
 - [Comments](#comments)
 
+- [Credits](#credits)
+
 
 ## Usage
 
@@ -59,3 +61,8 @@ From the figures, we see:
  - Grid has some wired behavior when there are more objects. This is due to the fact that we fixed the size of the grid which may not be optimal for the testing number of objects. So, to use the grid, one have to find the optimal grid size before using.
  - From the fig 3 and 4, it showed that the most time comsumming part is the display (drawing, at least for my case). So, there is a trade-off between tree performance and the number of displays. Beyound this trade-off, no use to use tree structures.
 
+## Credits
+- https://www.geeksforgeeks.org/kd-trees-in-cpp/
+- https://www.cs.umd.edu/class/fall2019/cmsc420-0201/Lects/lect14-kd-query.pdf
+- https://github.com/OneLoneCoder/Javidx9/blob/master/PixelGameEngine/SmallerProjects/OneLoneCoder_PGE_ProcGen_Universe.cpp
+- http://andrewd.ces.clemson.edu/courses/cpsc805/references/nearest_search.pdf
